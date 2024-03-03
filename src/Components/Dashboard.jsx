@@ -69,7 +69,7 @@ function Dashboard() {
                         .slice(0,8)
                       }
                        />
-                       {budget.length > 8 && (
+                       {budget.length > 6 && (
                         <Link className='btn btn--dark' to="expenseList">
                         View All
                         </Link>
